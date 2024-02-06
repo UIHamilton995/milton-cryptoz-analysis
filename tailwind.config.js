@@ -13,7 +13,9 @@ export default {
         white: "#fff",
         cyan: "#14ffec",
         red: "#d6436e",
-        green: "25da72",
+        green: "#25da72",
+        blue: "#1E90FF",
+        HEX: "#9A7D0A"
       },
       fontSize: {
         sm: "14px",
