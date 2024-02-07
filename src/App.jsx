@@ -10,9 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<Crypto />} />
-        </Route>
         <Route path="/trending" element={<Trending />} />
         <Route path="/saved" element={<Saved />} /> 
+        </Route>
       </Routes>
     </BrowserRouter>
   )

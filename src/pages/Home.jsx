@@ -6,16 +6,15 @@ const Home = () => {
     <main className='w-full h-full flex flex-col first-letter:content-center items-center relative text-white font-nunito'>
       <div className='w-screen h-screen bg-gray-300 fixed -z-10'></div>
       <Link to='/' className="font-bold text:sm sm:text-xl flex flex-wrap mr-auto ml-3">
-        <div className="w-16 h-12 mt-2 animate-pulse">
-          <img src="./src/assets/blockchain.png" alt="Crytpoz logo" className="" />  
+        <div className="w-16 h-12">
+          <img src="./src/assets/burncoin.png" alt="Crytpoz logo" className="" />  
         </div>
-        <div className="hidden sm:flex flex-col h-14 animate-pulse">
-          <span className="text-lg mt-1 text-blue">Milton</span>
+        <div className="hidden sm:flex flex-col h-14">
+          <span className="text-lg mt-1 text-cyan">Milton</span>
           <span className="text-lg -mt-2 text-cyan">Cryptoz</span>
         </div>
       </Link>
       <Navigation />
-      Logo
       <Outlet />
     </main>
   )
