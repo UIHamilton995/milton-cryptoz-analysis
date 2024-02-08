@@ -16,7 +16,8 @@ export default {
         green: "#25da72",
         blue: "#1E90FF",
         HEX: "#9A7D0A",
-        orange: "#DA9353"
+        orange: "#DA9353",
+        amber: "#EB984E"
       },
       fontSize: {
         sm: "14px",
